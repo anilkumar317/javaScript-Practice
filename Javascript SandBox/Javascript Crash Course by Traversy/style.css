@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container {
+  margin: auto;
+  margin-top: 50px;
+  width: 500px;
+  overflow: auto;
+  padding: 3rem 2rem;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+#my-form {
+  text-align: center;
+}
+
+#name {
+  padding: 8px 6px;
+  width: 60%;
+  border: none;
+  margin: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#email {
+  padding: 8px 6px;
+  width: 60%;
+  border: none;
+  margin: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  padding: 8px 6px;
+  width: 60%;
+  border: none;
+  margin: 5px;
+  margin-left: 50px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.items {
+  list-style: none;
+  margin: 4px 15px;
+}
+.item {
+  margin: 10px;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.error {
+  background: orangered;
+  color: #fff;
+  width: 60%;
+  padding: 4px 8px;
+  width: 60%;
+  border: none;
+  text-align: center;
+  margin-left: 110px;
+  margin-top: 10px;
+}

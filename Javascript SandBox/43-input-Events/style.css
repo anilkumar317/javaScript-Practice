@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6em;
+  text-align: center;
+  background-color: #eee;
+}
+
+form {
+  width: 450px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 12px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+form #item-input {
+  width: 80%;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: none;
+  background-color: #eee;
+  border-radius: 3px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+form #priority {
+  width: 90%;
+  align-self: center;
+  padding: 10px 15px;
+  border: none;
+  background-color: #eee;
+  border-radius: 3px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+#checkbox-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 10px 0;
+}
+
+input[type='submit'] {
+  width: 25%;
+  margin: 10px;
+  padding: 10px 0;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}

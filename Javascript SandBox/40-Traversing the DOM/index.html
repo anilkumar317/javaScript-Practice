@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traversing The DOM</title>
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.5;
+        margin: 20px;
+        padding: 5px;
+      }
+      .card {
+        background-color: #ccc;
+        padding: 15px;
+        border-radius: 5px;
+      }
+      .parent {
+        background-color: #f4f4f4;
+        padding: 15px;
+        margin-top: 10px;
+        border-radius: 5px;
+      }
+      #btn {
+        padding: 10px 20px;
+        margin: 15px 0;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        background-color: #333;
+        color: #fff;
+        border-radius: 5px;
+      }
+      .dark {
+        background-color: #000;
+        color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Traversing the DOM</h1>
+    <p class="card">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+      voluptas nemo quis veritatis, hic, voluptatem quidem quaerat vero
+      repellendus sit accusantium unde veniam repudiandae aspernatur labore
+      perspiciatis blanditiis commodi voluptatum! Consequatur obcaecati mollitia
+      laudantium? Consectetur obcaecati quasi dignissimos incidunt distinctio
+      error ex, magnam, est veritatis accusamus illum optio, animi rerum.
+    </p>
+    <div class="parent item-list">
+      <!-- children -->
+      <div class="child">child 1</div>
+      <div class="child">child 2</div>
+      <div class="child">child 3</div>
+      <div class="child">child 4</div>
+      <div class="child">child 5</div>
+      <div class="child">child 6</div>
+    </div>
+    <button id="btn">Run</button>
+    <script src="script.js"></script>
+  </body>
+</html>

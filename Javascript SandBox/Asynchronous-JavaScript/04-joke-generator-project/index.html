@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joke Generator</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+        text-align: center;
+        background-color: blueviolet;
+      }
+      h1 {
+        color: #fff;
+      }
+      .container {
+        width: 80%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 25px;
+        margin: 50px auto;
+        border-radius: 8px;
+      }
+      #joke {
+        padding: 30px 0;
+        font-size: x-large;
+        font-weight: 600;
+      }
+      .joke-btn {
+        padding: 10px 16px;
+        border: none;
+        background-color: blueviolet;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Joke Generator</h1>
+    </header>
+    <div class="container">
+      <h3>Chuck Norris Jokes</h3>
+      <div class="joke" id="joke">Loading...</div>
+      <button class="joke-btn">Get Another Joke</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

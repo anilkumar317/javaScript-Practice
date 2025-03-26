@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+#title {
+  padding: 10px;
+}
+
+form {
+  padding: 4px auto;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.input {
+  padding: 10px 6px;
+  max-width: 40%;
+  margin-bottom: 10px;
+  border: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+#additem-btn {
+  max-width: 15%;
+  padding: 8px;
+  margin-top: 8px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.3);
+}
+.item-list {
+  padding: 10px;
+  margin: 25px;
+}
+
+#title-2 {
+  padding: 10px;
+}
+
+.items {
+  border: 1px solid #000;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.delete-btn {
+  padding: 1px 4px;
+  border: none;
+  border-radius: 3px;
+  color: #000;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.clear-btn {
+  width: 80%;
+  border: 1px solid #000;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 40px;
+  cursor: pointer;
+}
